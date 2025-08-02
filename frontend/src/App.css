@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body{
+    scroll-behavior: smooth;
+background-color: black;
+    transition:  3s ease-in-out cubic-bezier(0.075, 0.82, 0.165, 1) ;
+}
+@font-face {
+    font-family: logo;
+    src: url('./assets/logo.otf');
+}
+
+@font-face {
+    font-family: subhead;
+    src: url("./assets/subhead.otf");
+}
+
+@font-face {
+    font-family: nav;
+    src: url('./assets/KuvasStyle-9YBEB.otf');
+}
+@font-face {
+    font-family: loader;
+    src: url('./assets/EaseBold-AR892.otf')format("truetype");
+}
+
+@font-face {
+    font-family: hero;
+    src: url('./assets/Brunson.ttf');
+}
+
+.menu{
+    border: solid 1px black;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.back{
+    background: url('./back.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
