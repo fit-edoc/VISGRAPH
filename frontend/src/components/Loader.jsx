@@ -92,7 +92,7 @@ const Loader = () => {
             className="text-[6vw]  font-loader uppercase overflow-hidden absolute bottom-0"
             ref={textRef1}
           >
-            <span className="inline-block">Desing & Code </span>
+            <span className="inline-block">Design & Code </span>
           </h1>
         </div>
         <div className=" h-[30%] w-full  relative">
